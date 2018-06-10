@@ -1,0 +1,97 @@
+/*盒子模型
+盒子的三大组成部分：
+	盒子壁：border
+	内边距：padding
+	盒子内容：width + height
+
+
+盒子模型的组成：
+	margin + border + padding + content(width + height);
+body天生就有8px的margin值；*/
+
+
+/*div {
+	width: 100px;
+	height: 100px;
+	background: #f40;
+	padding: 10px;
+	border: 10px solid #00f;
+	margin: 100px;
+}*/
+
+
+/*.wrapper {
+	width: 100px;
+	height: 100px;
+	background: #f40;
+}
+.content {
+	width: 100px;
+	height: 100px;
+	background: #00f;
+	padding: 10px;
+}
+div {
+	width: 100px;
+	height: 100px;
+	padding: 0 100px;
+	margin: 10px 20px 30px 40px;
+	border: 1px solid orange;
+	background-color: orange;
+	padding 0;
+}*/
+
+
+	/*奥运五环*/
+* {
+	padding: 0;
+	margin: 0;
+}
+.content {
+	width:500px; 
+	height: 200px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
+}
+.ring1,
+.ring2,
+.ring3,
+.ring4,
+.ring5 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.ring1 {
+	border: 10px solid yellow;
+	position: relative;
+}
+.ring2 {
+	border: 10px solid black;
+	position: absolute;
+	top: 50px;
+	left: 75px;
+
+}
+.ring3 {
+	border: 10px solid green;
+	position: absolute;
+	top: 0;
+	left: 150px;
+
+}
+.ring4 {
+	border: 10px solid blue;
+	position: absolute;
+	top: 50px;
+	left: 225px;
+}
+.ring5 {
+	border: 10px solid red;
+	position: absolute;
+	top: 0;
+	left: 300px;
+}

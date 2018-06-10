@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*p{
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #00f;
+
+	/*以下是处理单行文本溢出的“三件套”*/
+	white-space: nowrap;    /*不会换行*/
+	overflow: hidden;      /* 隐藏溢出部分*/
+	text-overflow: ellipsis;   /*溢出部分用....展示*/
+}
+
+
+p{
+	/*多行只截断，不打点*/
+	width: 100px;
+	height: 40px;    /*height为行高的倍数,几行就几倍*/
+	line-height: 20px;
+	border: 1px solid #00f;
+	overflow: hidden;
+}
+
+*/
+/*div{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #00f;
+	background-image: url(../../images/summer03.gif);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: 100px 100px;
+}*/
+
+/*a{
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	border: 1px solid #000;
+	width: 190px;
+	height: 0px;
+	background-image: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+	background-size: 190px 90px;
+
+	/*第一种
+	/*text-indent: 200px;
+	white-space: nowrap;
+	overflow: hidden;*/
+	
+	/*第二种是把盒子高设为零，再用内边距把盒子撑开*/
+	/*padding-top: 90px;
+	overflow: hidden;*/
+
+
+/*}*/
+
+
+
+
+
+.wrapper{
+	height: 30px;
+	background-color: black;
+
+}
+.content{
+	margin: 0 auto;
+	width: 1200px;
+	height: 30px;
+	background-color: #0f0;
+}

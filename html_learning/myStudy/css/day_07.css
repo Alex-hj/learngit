@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	color: #424242;
+	text-decoration: none;
+}
+.nav{
+	list-style: none;
+}
+.nav::after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+.nav .list-item{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin: 0 10px;
+}
+.nav .list-item a{
+	color: #f40;
+	font-weight: bold;
+	height: 30px;
+	display: inline-block;
+	border-radius: 15px;
+	padding: 0 10px;
+}
+.nav .list-item a:hover{
+	background-color: #f40;
+	color: #fff; 
+}
+/*1、用ul,li结构
+  2、用父子选择器*/

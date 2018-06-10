@@ -1,0 +1,59 @@
+/*浏览器遍历父子选择器的顺序是从右往左的*/
+/*
+父子选择器/派生选择器 
+*/
+/*div span {
+	background-color: yellow;
+}*/
+
+/*
+div em {
+	background: yellow;
+}*/
+
+
+/*
+直接子元素选择器
+*/
+/*div > em {
+	background: blue;
+}*/
+
+/*并列选择器*/
+
+/*div.demo {
+	background: red;
+}
+div.demo#only {
+	background: yellow;
+}
+
+
+#two .try {
+	background: red;
+}
+div.try {
+	background: yellow;
+}*/
+
+/*-------------------------*/
+/*分组选择器   适合于不同元素共用相同的代码*/
+/*div,
+span,
+em {
+	background: yellow;
+}*/
+/*---------------------------------------------*/
+/*默认字体大小的像素是16px;*/
+/*div.demo{
+	font-size: 12px;
+}*/
+.demo {
+	width: 0px;
+	height: 0px;
+	border: 100px solid black;
+	border-left-color:#00f;
+	border-bottom-color: #00f;
+	border-top-color:transparent;  
+	border-right-color:transparent;
+}
